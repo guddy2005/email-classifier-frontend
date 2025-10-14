@@ -10,6 +10,7 @@ export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   const [token, setToken] = useState(localStorage.getItem("token"));
   const [loading, setLoading] = useState(true);
+  const [authError, setAuthError] = useState(null);
 
   useEffect(() => {
     if (token) {
@@ -35,11 +36,14 @@ export const AuthProvider = ({ children }) => {
       setToken(res.data.token);
       const decoded = jwtDecode(res.data.token);
       setUser(decoded);
+      setAuthError(null);
       return { success: true };
     } catch (err) {
+      const message = err.response?.data?.error || "Login failed";
+      setAuthError(message);
       return {
         success: false,
-        error: err.response?.data?.error || "Login failed",
+        error: message,
       };
     }
   };
@@ -56,11 +60,14 @@ export const AuthProvider = ({ children }) => {
       setToken(res.data.token);
       const decoded = jwtDecode(res.data.token);
       setUser(decoded);
+      setAuthError(null);
       return { success: true };
     } catch (err) {
+      const message = err.response?.data?.error || "Registration failed";
+      setAuthError(message);
       return {
         success: false,
-        error: err.response?.data?.error || "Registration failed",
+        error: message,
       };
     }
   };
@@ -69,6 +76,7 @@ export const AuthProvider = ({ children }) => {
     localStorage.removeItem("token");
     setToken(null);
     setUser(null);
+    setAuthError(null);
   };
 
   const requestPasswordReset = async (email) => {
@@ -103,6 +111,8 @@ export const AuthProvider = ({ children }) => {
     login,
     register,
     logout,
+    error: authError,
+    clearErrors: () => setAuthError(null),
     requestPasswordReset,
     resetPassword,
   };
