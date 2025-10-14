@@ -16,7 +16,6 @@ root.render(
   </React.StrictMode>,
 );
 
-// Register service worker for offline capabilities
 serviceWorkerRegistration.unregister({
   onSuccess: () => {
     console.log("Service worker registration successful");

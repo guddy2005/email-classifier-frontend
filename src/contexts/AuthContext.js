@@ -1,6 +1,6 @@
-import React, { createContext, useContext, useState, useEffect } from 'react';
-import api from '../styles/api';
-import { jwtDecode } from 'jwt-decode';
+import React, { createContext, useContext, useState, useEffect } from "react";
+import api from "../styles/api";
+import jwtDecode from "jwt-decode";
 
 const AuthContext = createContext();
 
@@ -8,7 +8,7 @@ export const useAuth = () => useContext(AuthContext);
 
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
-  const [token, setToken] = useState(localStorage.getItem('token'));
+  const [token, setToken] = useState(localStorage.getItem("token"));
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -30,42 +30,55 @@ export const AuthProvider = ({ children }) => {
 
   const login = async (email, password) => {
     try {
-      const res = await api.post('/auth/login', { email, password });
-      localStorage.setItem('token', res.data.token);
+      const res = await api.post("/auth/login", { email, password });
+      localStorage.setItem("token", res.data.token);
       setToken(res.data.token);
       const decoded = jwtDecode(res.data.token);
       setUser(decoded);
       return { success: true };
     } catch (err) {
-      return { success: false, error: err.response?.data?.error || 'Login failed' };
+      return {
+        success: false,
+        error: err.response?.data?.error || "Login failed",
+      };
     }
   };
 
   const register = async (username, email, password) => {
     try {
-      const res = await api.post('/auth/register', { username, email, password });
-      localStorage.setItem('token', res.data.token);
+      const res = await api.post("/auth/register", {
+        username,
+        email,
+        password,
+      });
+      localStorage.setItem("token", res.data.token);
       setToken(res.data.token);
       const decoded = jwtDecode(res.data.token);
       setUser(decoded);
       return { success: true };
     } catch (err) {
-      return { success: false, error: err.response?.data?.error || 'Registration failed' };
+      return {
+        success: false,
+        error: err.response?.data?.error || "Registration failed",
+      };
     }
   };
 
   const logout = () => {
-    localStorage.removeItem('token');
+    localStorage.removeItem("token");
     setToken(null);
     setUser(null);
   };
 
   const requestPasswordReset = async (email) => {
     try {
-      const res = await api.post('/auth/forgot-password', { email });
+      const res = await api.post("/auth/forgot-password", { email });
       return { success: true, message: res.data.message };
     } catch (err) {
-      return { success: false, error: err.response?.data?.error || 'Request failed' };
+      return {
+        success: false,
+        error: err.response?.data?.error || "Request failed",
+      };
     }
   };
 
@@ -74,7 +87,10 @@ export const AuthProvider = ({ children }) => {
       await api.post(`/auth/reset-password/${token}`, { password });
       return { success: true };
     } catch (err) {
-      return { success: false, error: err.response?.data?.error || 'Password reset failed' };
+      return {
+        success: false,
+        error: err.response?.data?.error || "Password reset failed",
+      };
     }
   };
 
@@ -90,9 +106,5 @@ export const AuthProvider = ({ children }) => {
     resetPassword,
   };
 
-  return (
-    <AuthContext.Provider value={value}>
-      {children}
-    </AuthContext.Provider>
-  );
+  return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
 };
