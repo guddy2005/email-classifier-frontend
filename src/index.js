@@ -17,7 +17,7 @@ root.render(
 );
 
 // Register service worker for offline capabilities
-serviceWorkerRegistration.register({
+serviceWorkerRegistration.unregister({
   onSuccess: () => {
     console.log("Service worker registration successful");
   },
