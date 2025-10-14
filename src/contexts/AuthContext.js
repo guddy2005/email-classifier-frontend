@@ -44,13 +44,14 @@ export const AuthProvider = ({ children }) => {
     }
   };
 
-  const register = async (username, email, password) => {
+  const register = async (arg1, email, password) => {
     try {
-      const res = await api.post("/auth/register", {
-        username,
-        email,
-        password,
-      });
+      const payload =
+        typeof arg1 === "object" && arg1 !== null
+          ? { username: arg1.username, email: arg1.email, password: arg1.password }
+          : { username: arg1, email, password };
+
+      const res = await api.post("/auth/register", payload);
       localStorage.setItem("token", res.data.token);
       setToken(res.data.token);
       const decoded = jwtDecode(res.data.token);
