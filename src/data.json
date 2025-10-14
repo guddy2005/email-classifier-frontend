@@ -1,0 +1,272 @@
+[
+  {
+    "id": "1",
+    "from": "sales@techgadgets.com",
+    "subject": "🚀 Early Access: The Future of Smartwatches is Here!",
+    "snippet": "Be the first to experience the new ChronoMax X1. Limited stock available for our loyal customers.",
+    "body": "<p>Hello Valued Customer,</p><p>The moment you've been waiting for is finally here! We are thrilled to announce the launch of the <strong>ChronoMax X1</strong>, a revolutionary step in wearable technology. As a token of our appreciation for your continued support, we're giving you exclusive early access before it hits the global market next month. The ChronoMax X1 isn't just a watch; it's your personal assistant, fitness coach, and a seamless extension of your digital life, all on your wrist. It features a stunning edge-to-edge retina display, a battery that lasts up to 7 days on a single charge, and our new bio-sensor for unparalleled health tracking, including real-time glucose monitoring.</p><p>Imagine a device that not only tells time but also anticipates your needs. From managing your schedule with AI-powered suggestions to providing deep-dive analytics on your sleep patterns, the ChronoMax X1 is designed to enhance every moment of your day. This is more than an upgrade; it's a complete re-imagining of what a smartwatch can be. Don’t miss your chance to be a part of the future. Stocks are extremely limited for this exclusive pre-release.</p><p>Click the link below to secure yours today!</p><p>Best regards,<br>The TechGadgets Team</p>",
+    "date": "2024-05-21T10:00:00Z",
+    "category": "Promotions"
+  },
+  {
+    "id": "2",
+    "from": "jane.doe@workplace.com",
+    "subject": "Project Alpha: Weekly Sync & Action Items",
+    "snippet": "Hi team, here are the notes from our meeting today. Please review your action items for this week.",
+    "body": "<p>Hi Team,</p><p>Following up on our weekly sync for <strong>Project Alpha</strong>, I've attached the meeting minutes and a summary of our key discussion points. We made excellent progress on the Q2 roadmap, and I want to thank everyone for their insightful contributions. Our main focus for the upcoming sprint will be the integration of the new payment gateway. We need to ensure all testing environments are prepared by Wednesday to avoid any delays. I have assigned the initial setup tasks in our project management tool, so please check your dashboards for your specific responsibilities.</p><p>Here are the primary action items:</p><ul><li><strong>Alice:</strong> Finalize the API documentation for the authentication module. EOD Tuesday.</li><li><strong>Bob:</strong> Deploy the latest build to the staging server and run preliminary integration tests. EOD Wednesday.</li><li><strong>Charlie:</strong> Prepare a demo of the new user onboarding flow for the stakeholder meeting on Friday.</li></ul><p>Please have all your assigned tasks updated by the end of the day. Let's keep the momentum going and make this a successful sprint. If you have any blockers, please don't hesitate to reach out to me directly. Great work, everyone!</p><p>Best,<br>Jane Doe<br>Project Manager</p>",
+    "date": "2024-05-21T09:45:00Z",
+    "category": "Primary"
+  },
+  {
+    "id": "3",
+    "from": "notifications@linkedin.com",
+    "subject": "You appeared in 5 searches this week",
+    "snippet": "See who's searching for you. Your profile is getting attention from recruiters and professionals in your industry.",
+    "body": "<p>Hi Guddy,</p><p>Your profile is gaining traction! This past week, you appeared in <strong>5 searches</strong> from professionals at leading companies in your industry, including individuals from Tech Solutions Inc. and Global Innovations. Recruiters are actively looking for candidates with your skills, and your profile is standing out. This is a great opportunity to expand your network and explore new career possibilities. To see more details about who viewed your profile and what they were searching for, you can upgrade to LinkedIn Premium.</p><p>A strong profile can open doors to unexpected opportunities. Consider updating your skills and recent accomplishments to attract even more attention. You can also see who's viewed your profile in the last 90 days and get exclusive insights into job postings. Keeping your profile fresh and engaging is the key to making the right connections. Don't miss out on the chance to connect with key people in your field. We are here to help you grow your professional network and advance your career. Keep up the great work!</p><p>The LinkedIn Team</p>",
+    "date": "2024-05-21T09:30:00Z",
+    "category": "Social"
+  },
+  {
+    "id": "4",
+    "from": "security-alert@your-bank.net",
+    "subject": "URGENT: Suspicious Activity Detected on Your Account!",
+    "snippet": "Your account has been temporarily suspended due to unusual login attempts. Please verify your identity immediately.",
+    "body": "<p>Dear Valued Customer,</p><p>We have detected suspicious activity on your account from an unrecognized IP address located in a foreign country. For your protection, we have temporarily suspended your online access. To restore your account, you must verify your identity by clicking the link below and providing the required information. Failure to do so within 24 hours will result in permanent account closure. This is a critical security measure to prevent unauthorized access and protect your financial assets. We understand this may be an inconvenience, but your security is our top priority.</p><p>Please do not ignore this message. The link below will take you to a secure portal where you can confirm your personal details and reset your password. Our system has flagged this activity as high-risk, and immediate action is required to ensure your account remains secure. We have a team of security experts working around the clock to monitor for threats, but we need your cooperation to resolve this matter. Thank you for your prompt attention to this important security alert. We appreciate your understanding and cooperation.</p><p>Sincerely,<br>Your Bank's Security Team</p>",
+    "date": "2024-05-21T08:45:00Z",
+    "category": "Spam"
+  },
+  {
+    "id": "5",
+    "from": "billing@cloudservice.com",
+    "subject": "Your Invoice #8A4D3 is now available",
+    "snippet": "Thank you for your business. Your invoice for the month of May is attached.",
+    "body": "<p>Hello Guddy,</p><p>This is a notification that your invoice for the billing period of May 2024 is now available. The total amount due is <strong>$49.99</strong> and will be automatically charged to your payment method on file on June 1st, 2024. No action is required from your side unless you wish to change your payment method or review the detailed breakdown of your usage. You can view and download a PDF copy of your invoice by logging into your account dashboard.</p><p>This invoice covers your subscription to our Pro Plan, which includes unlimited projects, advanced analytics, and priority support. We are committed to providing you with the best service and tools to help you succeed. If you have any questions about your invoice or your subscription, please do not hesitate to contact our support team. We are always here to help. We value your business and look forward to continuing to serve you in the future. Thank you for being a valued customer of CloudService.</p><p>Thank you,<br>The CloudService Billing Team</p>",
+    "date": "2024-05-21T08:00:00Z",
+    "category": "Primary"
+  },
+  {
+    "id": "6",
+    "from": "deals@fashionforward.com",
+    "subject": "Last Chance: 40% Off Ends Tonight!",
+    "snippet": "Your favorite styles are selling out fast. Use code FINALE40 at checkout before midnight.",
+    "body": "<p>Hi Fashionista,</p><p>This is your final reminder! Our incredible <strong>40% off sitewide sale</strong> is coming to an end tonight at midnight. This is your last chance to grab the styles you've been eyeing at an unbeatable price. From our new summer collection of dresses and sandals to timeless classics like our signature denim jackets, everything is included. Don't let these deals slip away! We've seen a huge response, and some of our most popular items are already low in stock. This is the perfect opportunity to refresh your wardrobe for the new season or to finally get that piece you've had in your cart.</p><p>Remember to use the code <strong>FINALE40</strong> at checkout to apply your discount. Shopping with us is easy, and we offer free shipping on all orders over $50. We believe that great style should be accessible to everyone, and this sale is our way of saying thank you for being a part of our community. We are constantly inspired by your creativity and passion for fashion. Don't wait until it's too late – head to our website now and treat yourself to something special. Happy shopping!</p><p>XOXO,<br>The FashionForward Team</p>",
+    "date": "2024-05-20T18:30:00Z",
+    "category": "Promotions"
+  },
+  {
+    "id": "7",
+    "from": "notifications@facebook.com",
+    "subject": "Alex Smith tagged you in a photo",
+    "snippet": "Your friend Alex Smith tagged you in a photo from your recent trip. Check it out!",
+    "body": "<p>Hi Guddy,</p><p>Your friend <strong>Alex Smith</strong> just tagged you in a photo. It looks like it's from your recent weekend getaway! You can view the photo and see who else was tagged by clicking the link below. Don't forget to leave a comment or a like to let Alex know you've seen it. Photos are a great way to share memories with friends and family, and we love seeing our users connect through shared experiences. You can also manage your tag settings at any time to control who can tag you in photos and posts.</p><p>We are always working to make your experience on Facebook more enjoyable and meaningful. We've recently updated our photo album features to make it even easier to organize and share your memories. You can now create collaborative albums with friends, add captions and locations, and even order prints directly from our platform. We hope you enjoy reliving your favorite moments. Thanks for being a part of the Facebook community. We look forward to seeing more of your adventures!</p><p>Thanks,<br>The Facebook Team</p>",
+    "date": "2024-05-20T16:00:00Z",
+    "category": "Social"
+  },
+  {
+    "id": "8",
+    "from": "support@pkg-delivery.com",
+    "subject": "Your package has been delivered",
+    "snippet": "Your order from GadgetStore has been successfully delivered. Tracking ID: XYZ12345.",
+    "body": "<p>Dear Guddy,</p><p>Great news! Your package with tracking number <strong>XYZ12345</strong> from GadgetStore has been successfully delivered on May 20, 2024, at 3:45 PM. Our driver left the package at your front door as requested. We hope you enjoy your new purchase! For your records, we've attached a photo of the delivery location to this email. If you have any issues or did not receive your package, please contact our customer support team within 24 hours so we can assist you promptly.</p><p>We strive to provide reliable and timely delivery services. You can manage your delivery preferences, such as setting a specific delivery spot or opting for signature confirmation, by logging into your account on our website. We also offer a premium service for scheduled delivery windows and real-time tracking on a map. Your feedback is important to us, so please consider taking a moment to rate your delivery experience. Thank you for choosing PKG-Delivery for your shipping needs. We appreciate your business and look forward to serving you again soon.</p><p>Sincerely,<br>The PKG-Delivery Team</p>",
+    "date": "2024-05-20T15:50:00Z",
+    "category": "Primary"
+  },
+  {
+    "id": "9",
+    "from": "claim@prize-rewards.info",
+    "subject": "You've Been Selected for a FREE iPhone 15!",
+    "snippet": "Congratulations! Your email was chosen to receive a brand new iPhone 15. Just pay a small shipping fee.",
+    "body": "<p>Dear Lucky Winner,</p><p>We are excited to inform you that you have been selected as one of the few lucky individuals to receive a brand new, factory-sealed <strong>iPhone 15 Pro Max (256GB)</strong>! This is part of our exclusive promotional giveaway to reward loyal internet users like you. To claim your prize, all you need to do is confirm your shipping address and cover a small shipping and handling fee of $4.95. This is a limited-time offer, and you must act now before all the prizes are claimed. Thousands of people are vying for this opportunity, but your email was specifically chosen.</p><p>This is not a joke! Imagine holding the latest piece of technology in your hands, with its advanced camera system, powerful A17 Bionic chip, and stunning ProMotion display. This is your chance to upgrade your life without spending a fortune. Click the link below to be taken to our secure checkout page. The process is simple and takes less than two minutes. Once your details are confirmed, your new iPhone will be dispatched within 24 hours. Don't let this once-in-a-lifetime opportunity pass you by. Act now and join the ranks of our happy winners!</p><p>Claim Your Prize Now,<br>The Prize Rewards Team</p>",
+    "date": "2024-05-20T14:00:00Z",
+    "category": "Spam"
+  },
+  {
+    "id": "10",
+    "from": "newsletter@dev-digest.com",
+    "subject": "Weekly Dev Digest: Top 5 React Hooks You're Not Using",
+    "snippet": "This week, we dive into advanced React hooks, the future of server-side rendering, and more.",
+    "body": "<p>Hello Developer,</p><p>Welcome to your weekly dose of the Dev Digest! This edition is packed with insights to level up your coding game. Our feature article this week explores <strong>'Top 5 Advanced React Hooks You're Probably Not Using'</strong>. We go beyond `useState` and `useEffect` to uncover powerful hooks like `useImperativeHandle` and `useTransition` that can solve complex UI problems and optimize your application's performance. We've included practical examples and code snippets to help you get started right away. You'll be surprised at how these hooks can simplify your components and improve user experience.</p><p>Also in this issue, we take a deep dive into the latest trends in server-side rendering (SSR) and the rise of hybrid frameworks. Is static site generation (SSG) still relevant? We compare the pros and cons of different rendering strategies to help you choose the best approach for your next project. Plus, don't miss our tutorial on building a real-time chat application with WebSockets and Node.js. As always, we've curated the best articles, tutorials, and open-source projects from around the web. Happy coding!</p><p>Cheers,<br>The Dev Digest Crew</p>",
+    "date": "2024-05-20T12:00:00Z",
+    "category": "Promotions"
+  },
+  {
+    "id": "11",
+    "from": "no-reply@your-saas.com",
+    "subject": "Password Reset Request",
+    "snippet": "A password reset was requested for your account. If you did not make this request, please ignore this email.",
+    "body": "<p>Hi Guddy,</p><p>We received a request to reset the password for your account associated with this email address. If you made this request, please click the link below to choose a new password. This link will expire in 1 hour for your security.</p><p><a href='#'>Reset Your Password</a></p><p>If you did not request a password reset, you can safely ignore this email. No changes will be made to your account. However, for your security, we recommend you review your account activity and ensure your password is strong and unique. Never share your password with anyone. Our support team will never ask for your password. We are committed to keeping your account secure and providing you with a safe and reliable service. If you have any concerns about your account's security, please contact our support team immediately. We are available 24/7 to assist you with any security-related issues.</p><p>Thank you,<br>The YourSaaS Team</p>",
+    "date": "2024-05-20T11:30:00Z",
+    "category": "Primary"
+  },
+  {
+    "id": "12",
+    "from": "notifications@twitter.com",
+    "subject": "You have a new follower: @TechInsider",
+    "snippet": "TechInsider, a popular source for tech news and reviews, is now following you on Twitter.",
+    "body": "<p>Hi Guddy,</p><p>You have a new follower on Twitter! <strong>TechInsider (@TechInsider)</strong> is now following you. This is a great opportunity to connect with a leading voice in the tech community and stay up-to-date with the latest news and trends. You can follow them back to see their tweets in your timeline. Engaging with influential accounts can help you grow your own audience and establish your presence on the platform. Consider sending them a tweet to start a conversation or sharing one of their articles.</p><p>Building your network on Twitter is all about making meaningful connections. We recommend exploring their profile to see what they're all about. You might find common interests or opportunities for collaboration. Don't forget to check your notifications regularly for more updates on who is interacting with your content. We are constantly working on new features to help you connect with people and ideas that matter to you. Thanks for being an active member of the Twitter community. We're excited to see what you'll share next!</p><p>The Twitter Team</p>",
+    "date": "2024-05-20T10:15:00Z",
+    "category": "Social"
+  },
+  {
+    "id": "13",
+    "from": "support@health-supplements.biz",
+    "subject": "Lose 30lbs in 30 Days with This ONE Weird Trick!",
+    "snippet": "Doctors are baffled by this revolutionary new supplement that melts fat away without diet or exercise.",
+    "body": "<p>Hello,</p><p>Are you tired of struggling with weight loss? Have you tried every diet and exercise plan with no results? We have the solution you've been searching for. Introducing <strong>Metabo-Boost X</strong>, a groundbreaking new supplement that is taking the health world by storm. Our patented formula, derived from a rare Amazonian fruit, has been clinically proven to accelerate your metabolism and burn fat at an incredible rate. You can lose up to 30 pounds in just 30 days, without changing your diet or spending hours at the gym. This is not a gimmick; it's science!</p><p>Thousands of our customers have already transformed their bodies and their lives with Metabo-Boost X. They report increased energy, reduced cravings, and, most importantly, rapid and sustainable weight loss. Don't just take our word for it; see the incredible before-and-after photos on our website. For a limited time, we are offering a risk-free trial. Just pay a small shipping and handling fee, and we'll send you a 30-day supply. If you're not completely satisfied, simply return the empty bottle for a full refund. This is your chance to finally achieve the body of your dreams. Click now!</p><p>To your health,<br>The Metabo-Boost X Team</p>",
+    "date": "2024-05-20T09:00:00Z",
+    "category": "Spam"
+  },
+  {
+    "id": "14",
+    "from": "webinars@marketingpros.com",
+    "subject": "Join Our Free Webinar: The Future of Digital Marketing",
+    "snippet": "Learn from industry experts about the latest trends in AI, content marketing, and social media strategy.",
+    "body": "<p>Hi Marketer,</p><p>Are you ready to stay ahead of the curve in the ever-evolving world of digital marketing? Join us for a free, exclusive webinar on <strong>'The Future of Digital Marketing'</strong> next Tuesday at 2 PM EST. Our panel of industry-leading experts will share their predictions and strategies for success in 2025 and beyond. You'll learn about the impact of artificial intelligence on content creation, the latest techniques for building a powerful social media presence, and how to create a content strategy that truly resonates with your audience. This is a must-attend event for any marketer looking to gain a competitive edge.</p><p>This is not just another lecture. The webinar will be highly interactive, with live Q&A sessions where you can get your most pressing questions answered by our experts. We'll also be providing all attendees with a free toolkit, including templates, checklists, and a guide to the best marketing tools on the market. Seats are limited to ensure a high-quality experience, so don't wait to register. Secure your spot today and get ready to take your marketing skills to the next level. We are excited to share our knowledge with you and help you achieve your marketing goals.</p><p>Reserve Your Spot Now,<br>The MarketingPros Team</p>",
+    "date": "2024-05-19T14:00:00Z",
+    "category": "Promotions"
+  },
+  {
+    "id": "15",
+    "from": "hr@innovatecorp.com",
+    "subject": "Interview Follow-Up: Software Engineer Position",
+    "snippet": "Thank you for interviewing with us. We were very impressed and would like to discuss next steps.",
+    "body": "<p>Dear Guddy,</p><p>Thank you for taking the time to interview with us for the Software Engineer position at InnovateCorp. The team was very impressed with your background, technical skills, and your thoughtful approach to the coding challenge. We enjoyed our conversation and learning more about your experience with large-scale distributed systems. Your passion for building robust and scalable software aligns perfectly with our company's values and goals. We believe you would be a great addition to our team and would make a significant impact on our upcoming projects.</p><p>We would like to move forward with the next steps in the hiring process. Our HR department will be in touch with you shortly to schedule a final interview with our CTO, Dr. Evelyn Reed. This will be an opportunity for you to learn more about our company's long-term vision and for us to get to know you better. Please let us know your availability for the coming week. We are very excited about the possibility of you joining our team and look forward to speaking with you again soon. If you have any questions in the meantime, please feel free to reach out.</p><p>Best regards,<br>The InnovateCorp Hiring Team</p>",
+    "date": "2024-05-19T11:00:00Z",
+    "category": "Primary"
+  },
+  {
+    "id": "16",
+    "from": "notifications@pinterest.com",
+    "subject": "We found new ideas for you",
+    "snippet": "Check out these new Pins we've picked for your 'Home Decor' board. Get inspired!",
+    "body": "<p>Hi Guddy,</p><p>We've been busy finding fresh ideas just for you! Based on your recent activity and your 'Home Decor' board, we've curated a collection of new Pins that we think you'll love. From minimalist living room designs to DIY garden projects, there's a world of inspiration waiting for you. Discover new trends, save your favorite ideas, and start planning your next project. Our goal is to help you discover and do what you love, and we're constantly updating our recommendations to bring you the best content from creators around the world.</p><p>Pinterest is more than just a place to find ideas; it's a community of creators and dreamers. You can follow your favorite creators, explore trending topics, and even create your own Idea Pins to share your unique style with the world. We've also made it easier to shop for the products you see in Pins, so you can bring your vision to life. We hope these new ideas spark your creativity and help you create a space you love. Click below to see your personalized recommendations. Happy Pinning!</p><p>See Your Ideas,<br>The Pinterest Team</p>",
+    "date": "2024-05-19T09:00:00Z",
+    "category": "Social"
+  },
+  {
+    "id": "17",
+    "from": "foreign-lottery@winner.com.cn",
+    "subject": "You Have Won The International Lottery!",
+    "snippet": "Your email address has won you the grand prize of $5,000,000 USD in the annual international lottery draw.",
+    "body": "<p>ATTENTION: WINNER,</p><p>We are pleased to inform you that your email address has been selected as a winner in the 2024 International Online Lottery Program. You have won the grand prize of <strong>$5,000,000.00 (Five Million United States Dollars)</strong>. Your email was randomly selected from a worldwide database of internet users, and you are one of ten lucky winners this year. This program is sponsored by a consortium of multinational corporations to promote global commerce and goodwill. To begin the claims process, you must contact our claims agent, Mr. James Peterson, with your full name, address, and a copy of your identification.</p><p>You are required to keep this information strictly confidential until your claim has been processed and your prize has been released to you. This is to prevent fraudulent claims and to protect your winnings. You must contact the claims agent within 7 business days, or your prize will be forfeited and re-entered into the lottery pool. A processing fee of $500 is required to cover legal and administrative costs. This fee must be paid via wire transfer before your winnings can be released. This is a legitimate and once-in-a-lifetime opportunity. Do not miss out. Congratulations once again on your winnings!</p><p>Sincerely,<br>The International Lottery Commission</p>",
+    "date": "2024-05-18T20:00:00Z",
+    "category": "Spam"
+  },
+  {
+    "id": "18",
+    "from": "no-reply@your-domain.com",
+    "subject": "Your domain 'example.com' is about to expire",
+    "snippet": "Don't lose your domain! Your registration for example.com expires in 15 days. Renew now to keep it.",
+    "body": "<p>Dear Guddy,</p><p>This is an important reminder that your domain name, <strong>example.com</strong>, is set to expire in 15 days on June 5, 2024. To ensure uninterrupted service and to protect your online identity, it is crucial that you renew your domain before the expiration date. If your domain expires, your website and email services will stop working, and your domain may be purchased by someone else. Renewing is quick and easy. Simply log in to your account and follow the renewal instructions.</p><p>We recommend renewing for multiple years to lock in your price and avoid the hassle of annual renewals. We also offer an auto-renewal feature, which you can enable in your account settings to ensure your domains are always renewed on time. Protecting your domain is essential for your brand and online presence. Don't risk losing it to a competitor or a cybersquatter. If you have any questions or need assistance with the renewal process, our support team is available 24/7 to help you. Thank you for choosing us as your domain registrar.</p><p>Renew Your Domain Now,<br>The Your-Domain Team</p>",
+    "date": "2024-05-18T17:00:00Z",
+    "category": "Primary"
+  },
+  {
+    "id": "19",
+    "from": "noreply@gaming-store.com",
+    "subject": "Your cart is waiting for you!",
+    "snippet": "You left some great items in your cart. Complete your purchase before they're gone!",
+    "body": "<p>Hi Gamer,</p><p>Did you forget something? You have some amazing items in your shopping cart, and we didn't want you to miss out! You were just a few clicks away from owning the highly-anticipated 'Cybernetic Odyssey' and the 'Pro-Gamer Mechanical Keyboard'. These are some of our most popular items, and they're selling out fast. We've saved your cart for you, so you can pick up right where you left off. Completing your purchase is quick and easy. Just click the link below to return to your cart and proceed to checkout.</p><p>We know you have great taste, and we'd hate for you to miss out on these items. As a little extra incentive, we're offering you free shipping on this order. This is a limited-time offer, so don't delay! We are constantly adding new games and accessories to our store, so be sure to check out our new arrivals section. We are committed to providing the best gaming gear and the best shopping experience. If you have any questions or need help with your order, our customer support team is ready to assist you. Game on!</p><p>Return to Your Cart,<br>The Gaming Store Team</p>",
+    "date": "2024-05-18T15:00:00Z",
+    "category": "Promotions"
+  },
+  {
+    "id": "20",
+    "from": "notifications@youtube.com",
+    "subject": "Tech Guru just uploaded a new video",
+    "snippet": "Check out the new video from Tech Guru: 'The Ultimate Laptop Buying Guide 2024'.",
+    "body": "<p>Hi Guddy,</p><p>Great news! One of your favorite creators, <strong>Tech Guru</strong>, has just uploaded a new video titled 'The Ultimate Laptop Buying Guide 2024'. In this comprehensive guide, they break down everything you need to know to choose the perfect laptop for your needs and budget. From processors and GPUs to display technology and build quality, this video covers it all. Whether you're a student, a professional, or a gamer, you'll find valuable insights to help you make an informed decision. Click the link below to watch it now.</p><p>Don't forget to like, comment, and subscribe if you enjoy the content. Your engagement helps support creators and allows them to continue making high-quality videos. You can also turn on notifications for the Tech Guru channel to be the first to know when they upload new content. We are always working to improve your YouTube experience and help you discover content that you'll love. We hope you enjoy the video and find it helpful. Thanks for being a part of the YouTube community. Happy watching!</p><p>Watch Now,<br>The YouTube Team</p>",
+    "date": "2024-05-18T13:00:00Z",
+    "category": "Social"
+  },
+  {
+    "id": "21",
+    "from": "support@paypal-secure.com",
+    "subject": "Account Alert: Unusual Activity Detected",
+    "snippet": "We've noticed some unusual activity on your PayPal account. Please log in to confirm your identity.",
+    "body": "<p>Dear PayPal User,</p><p>For your security, we have limited what you can do with your account until you confirm your identity. This is a standard security measure we take when we detect potentially unauthorized activity. We noticed a login from a new device and location that we don't recognize. To ensure that it was you, we need you to log in and verify some information. Please click the link below to be taken to our secure resolution center. The process is quick and will help us ensure that your account remains safe.</p><p>It is important that you complete this step as soon as possible to restore full access to your account. If we do not hear from you within 48 hours, we may be forced to permanently restrict your account to prevent any fraudulent transactions. We take your security very seriously and are committed to protecting your financial information. Our team is constantly monitoring for suspicious activity, and we appreciate your cooperation in keeping the PayPal network secure. Thank you for your understanding and prompt attention to this matter.</p><p>Log In to Secure Your Account,<br>PayPal Security Department</p>",
+    "date": "2024-05-17T21:00:00Z",
+    "category": "Spam"
+  },
+  {
+    "id": "22",
+    "from": "events@tech-conference.com",
+    "subject": "Early Bird Tickets for DevCon 2024 Are Now on Sale!",
+    "snippet": "Save $200 on your ticket to the biggest developer conference of the year. Offer ends soon!",
+    "body": "<p>Hello Developer,</p><p>Get ready for the most anticipated developer event of the year! We are excited to announce that <strong>Early Bird tickets for DevCon 2024</strong> are now officially on sale. This is your chance to secure your spot at a discounted price and join thousands of developers from around the world for three days of learning, networking, and innovation. DevCon 2024 will feature over 100 sessions from industry experts, covering topics from AI and machine learning to web development and cloud computing. You'll get hands-on experience with the latest technologies and have the opportunity to connect with the people behind them.</p><p>By purchasing an Early Bird ticket, you'll save $200 on the standard registration fee. This offer is only available for a limited time, so don't wait to book your spot. In addition to the main conference, we're also offering a series of in-depth workshops on the day before the event. These workshops are a great way to get hands-on training from the best in the business. We are committed to creating an inclusive and welcoming environment for all attendees. We can't wait to see you in person for what promises to be our best conference yet. Register now and be a part of the future of technology!</p><p>Register Now,<br>The DevCon Team</p>",
+    "date": "2024-05-17T16:00:00Z",
+    "category": "Promotions"
+  },
+  {
+    "id": "23",
+    "from": "support@your-doctor.com",
+    "subject": "Appointment Confirmation for May 25th",
+    "snippet": "This is a confirmation for your upcoming appointment with Dr. Evans on Saturday, May 25th at 11:00 AM.",
+    "body": "<p>Dear Guddy,</p><p>This email is to confirm your upcoming appointment with <strong>Dr. Susan Evans</strong> on <strong>Saturday, May 25th, 2024, at 11:00 AM</strong>. Please plan to arrive 15 minutes early to complete any necessary paperwork. If you are a new patient, please bring your insurance card and a valid photo ID. Our office is located at 123 Health St, Wellness City. We have reserved this time especially for you, and we look forward to seeing you.</p><p>If you need to reschedule or cancel your appointment, please contact our office at least 24 hours in advance to avoid a cancellation fee. You can reply to this email or call us at (555) 123-4567. We understand that emergencies can happen, and we will do our best to accommodate your needs. We are committed to providing you with the highest quality of care in a comfortable and professional environment. Thank you for choosing our practice for your healthcare needs. We appreciate the trust you have placed in us.</p><p>Sincerely,<br>The Office of Dr. Susan Evans</p>",
+    "date": "2024-05-17T14:30:00Z",
+    "category": "Primary"
+  },
+  {
+    "id": "24",
+    "from": "notifications@instagram.com",
+    "subject": "sara_likes_design started following you",
+    "snippet": "You have a new follower on Instagram! Check out their profile and connect.",
+    "body": "<p>Hi @guddy_dev,</p><p>You have a new follower! <strong>sara_likes_design</strong> is now following you on Instagram. This is a great chance to grow your community and connect with someone who shares your interests. You can check out their profile to see their posts and decide if you want to follow them back. Building a community on Instagram is all about sharing your passions and connecting with others who feel the same way. We're excited to see how your network grows.</p><p>We are always adding new features to help you connect with your audience and express yourself. Have you tried creating a Reel recently? It's a fun way to share short, entertaining videos with your followers. You can also use Stories to share everyday moments and interact with your followers through polls and quizzes. We love seeing the creativity of our community, and we're here to provide you with the tools you need to shine. Thanks for being a part of Instagram. We can't wait to see what you post next!</p><p>See Profile,<br>The Instagram Team</p>",
+    "date": "2024-05-17T12:45:00Z",
+    "category": "Social"
+  },
+  {
+    "id": "25",
+    "from": "ceo@rich-investments.co",
+    "subject": "A Lucrative Investment Opportunity Just For You",
+    "snippet": "I am a wealthy investor looking for a partner to help me move funds. You will be compensated generously.",
+    "body": "<p>Dear Friend,</p><p>I am writing to you with a proposal of utmost urgency and confidentiality. I am the CEO of a major investment firm, and I have recently come into possession of a large sum of money, totaling <strong>$25,000,000 USD</strong>, which I need to move out of the country discreetly. Due to legal complications, I cannot do this myself. I am looking for a trustworthy partner to assist me in this transaction. For your help, you will be compensated with <strong>30% of the total sum</strong>, which amounts to $7,500,000 USD. This is a risk-free opportunity that will change your life forever.</p><p>All I require from you is a secure bank account where the funds can be temporarily held. You will need to provide me with your full name, address, and bank account details so that I can initiate the transfer. I assure you that this transaction is 100% legal and safe. I have all the necessary documentation to prove the legitimacy of the funds. Time is of the essence, as I must move the money within the next 72 hours. Please reply to this email immediately if you are interested in this mutually beneficial partnership. I look forward to your prompt response.</p><p>Yours Sincerely,<br>A Wealthy Benefactor</p>",
+    "date": "2024-05-16T22:00:00Z",
+    "category": "Spam"
+  },
+  {
+    "id": "26",
+    "from": "no-reply@travel-site.com",
+    "subject": "Your Flight to Paris is Confirmed!",
+    "snippet": "Booking Confirmation: Your round-trip flight to Paris (CDG) from June 10th to June 17th is confirmed.",
+    "body": "<p>Dear Guddy,</p><p>Your trip to Paris is booked! We are pleased to confirm your flight reservation. Please review the details below and ensure that all information is correct. Your e-ticket and itinerary are attached to this email for your convenience. We recommend printing a copy or saving it to your mobile device. Please check in for your flight online 24 hours before departure to save time at the airport. You can also select your seats and manage your booking through the airline's website.</p><p><strong>Flight Details:</strong></p><ul><li><strong>Confirmation Number:</strong> ABCDEF</li><li><strong>Departure:</strong> June 10, 2024, 8:00 AM from JFK</li><li><strong>Arrival:</strong> June 10, 2024, 9:00 PM at CDG</li><li><strong>Return:</strong> June 17, 2024, 10:00 PM from CDG</li></ul><p>We are excited for you to experience the magic of Paris! To make your trip even more memorable, we've curated a list of top attractions and local experiences. You can also book hotels, car rentals, and tours directly through our website. If you have any questions or need to make changes to your booking, our customer service team is available 24/7. We wish you a safe and enjoyable journey. Bon voyage!</p><p>The Travel-Site Team</p>",
+    "date": "2024-05-16T18:00:00Z",
+    "category": "Primary"
+  },
+  {
+    "id": "27",
+    "from": "info@book-club.com",
+    "subject": "New Arrivals: Discover Your Next Favorite Book",
+    "snippet": "This month's new releases are here! From thrilling mysteries to heartwarming romances, find your next read.",
+    "body": "<p>Hello Book Lover,</p><p>The wait is over! Our new collection of books for May has arrived, and it's filled with exciting new titles that are sure to capture your imagination. This month, we're featuring the highly anticipated new thriller from bestselling author, J.K. Riles, 'The Midnight Secret'. We also have a beautiful new historical fiction novel, 'The Last Librarian', that is already receiving rave reviews. Whether you're in the mood for a gripping mystery, a heartwarming romance, or an epic fantasy adventure, we have something for everyone.</p><p>As a valued member of our book club, you get exclusive access to author interviews, signed copies, and special discounts. This month, we're offering <strong>20% off all new arrivals</strong> for our members. Just use the code READMORE20 at checkout. We are passionate about books and are dedicated to helping you discover new authors and stories. Our team of editors has carefully curated this collection to bring you the best in contemporary and classic literature. We hope you find your next great read with us. Happy reading!</p><p>Explore New Arrivals,<br>The Book Club Team</p>",
+    "date": "2024-05-16T16:30:00Z",
+    "category": "Promotions"
+  },
+  {
+    "id": "28",
+    "from": "notifications@meetup.com",
+    "subject": "New Event: 'Monthly Coding Meetup' is this Saturday",
+    "snippet": "Join us for our monthly coding meetup this Saturday. We'll have talks on AI and web development.",
+    "body": "<p>Hi Guddy,</p><p>Get ready to connect and learn! Our 'Monthly Coding Meetup' is happening this <strong>Saturday, May 25th, at 2:00 PM</strong> at the Downtown Tech Hub. This month, we have an exciting lineup of speakers. Sarah Chen, a data scientist at AI Corp, will be giving a talk on 'The Ethics of Artificial Intelligence'. We'll also have a presentation from local developer, Mike Lee, on 'Modern CSS Techniques for Responsive Design'. It's a great opportunity to learn from experts, network with fellow developers, and share your own projects.</p><p>We'll have free pizza and drinks, thanks to our sponsor, CodeHost. Whether you're a seasoned professional or just starting your coding journey, you're welcome to join us. Our community is all about collaboration and mutual support. Please RSVP on the event page so we can get an accurate headcount. We're always looking for new speakers and topics, so if you have something you'd like to share at a future meetup, please get in touch. We look forward to seeing you there and having a great discussion. Let's build something amazing together!</p><p>RSVP Now,<br>The Coding Meetup Organizers</p>",
+    "date": "2024-05-16T14:00:00Z",
+    "category": "Social"
+  },
+  {
+    "id": "29",
+    "from": "support@your-bank-security.com",
+    "subject": "Security Notification: Your Account Has Been Locked",
+    "snippet": "We have locked your account due to multiple failed login attempts. Please contact us to unlock it.",
+    "body": "<p>Dear Customer,</p><p>This is an automated notification to inform you that your online banking account has been locked due to multiple unsuccessful login attempts. This is a security measure to protect your account from unauthorized access. To unlock your account, you must contact our customer support team immediately at 1-800-FAKE-NUMB. Our representatives are available 24/7 to assist you. Please have your account number and personal identification information ready to verify your identity. Do not reply to this email, as it is not monitored.</p><p>We understand that this may be an inconvenience, and we apologize for any disruption this may cause. However, the security of your account is our highest priority. We recommend that you review your recent account activity and change your password after your account has been unlocked. To further enhance your security, consider enabling two-factor authentication. This adds an extra layer of protection by requiring a code from your mobile device in addition to your password. Thank you for your cooperation in this matter. We are committed to providing a secure banking experience.</p><p>Sincerely,<br>The Bank Security Team</p>",
+    "date": "2024-05-15T23:00:00Z",
+    "category": "Spam"
+  },
+  {
+    "id": "30",
+    "from": "no-reply@project-tool.com",
+    "subject": "Alice invited you to the 'Website Redesign' project",
+    "snippet": "Alice wants you to join the 'Website Redesign' project. Click here to accept the invitation.",
+    "body": "<p>Hi Guddy,</p><p>You've been invited by <strong>Alice</strong> to collaborate on the <strong>'Website Redesign'</strong> project in ProjectTool. This project is focused on overhauling our company's main website to improve user experience and modernize the design. Your expertise in front-end development will be invaluable to the team. To accept the invitation and join the project, please click the link below. Once you've joined, you'll have access to the project board, files, and team discussions. We're excited to have you on board!</p><p>The project is set to kick off next Monday, and we'll be having a planning meeting to discuss the roadmap and assign initial tasks. Please make sure you've accepted the invitation before then so you can be added to the calendar invite. We're using ProjectTool to manage all our tasks, track progress, and facilitate communication, so please take some time to familiarize yourself with the platform if you haven't used it before. We believe that with your contribution, we can create a website that our users will love. Welcome to the team!</p><p>Accept Invitation,<br>The ProjectTool Team</p>",
+    "date": "2024-05-15T19:00:00Z",
+    "category": "Primary"
+  }
+]
