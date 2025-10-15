@@ -1,7 +1,16 @@
 import React from "react";
 import styled from "styled-components";
-import { Menu, Search, User as UserIcon, Sun, Moon } from "lucide-react";
+import {
+  Menu,
+  Search,
+  User as UserIcon,
+  Sun,
+  Moon,
+  LogOut,
+} from "lucide-react";
 import { useSettings } from "../../contexts/SettingsContext";
+import { useAuth } from "../../contexts/AuthContext";
+import Dropdown from "../common/Dropdown";
 
 const HeaderWrapper = styled.header`
   display: flex;
@@ -75,6 +84,13 @@ const ProfileName = styled.span`
 
 const Header = ({ user, onMenuToggle, searchQuery, onSearchChange }) => {
   const { theme, toggleTheme } = useSettings();
+  const { logout } = useAuth();
+
+  const handleDropdownChange = (value) => {
+    if (value === "logout") {
+      logout();
+    }
+  };
 
   return (
     <HeaderWrapper>
@@ -96,10 +112,18 @@ const Header = ({ user, onMenuToggle, searchQuery, onSearchChange }) => {
         <MenuButton onClick={toggleTheme}>
           {theme === "light" ? <Moon size={20} /> : <Sun size={20} />}
         </MenuButton>
-        <ProfileSection>
-          <UserIcon size={24} />
-          <ProfileName>{user ? user.username : "User"}</ProfileName>
-        </ProfileSection>
+        <Dropdown
+          trigger={
+            <ProfileSection>
+              <UserIcon size={24} />
+              <ProfileName>{user ? user.username : "User"}</ProfileName>
+            </ProfileSection>
+          }
+          items={[
+            { label: "Logout", value: "logout", icon: <LogOut size={16} /> },
+          ]}
+          onChange={handleDropdownChange}
+        />
       </RightSection>
     </HeaderWrapper>
   );

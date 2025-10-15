@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import styled from "styled-components";
 import PropTypes from "prop-types";
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, LogOut } from "lucide-react";
 
 const Container = styled.div`
   position: relative;
@@ -55,7 +55,10 @@ const Dropdown = ({ trigger, items, value, onChange }) => {
 
   useEffect(() => {
     const handleClickOutside = (event) => {
-      if (containerRef.current && !containerRef.current.contains(event.target)) {
+      if (
+        containerRef.current &&
+        !containerRef.current.contains(event.target)
+      ) {
         setIsOpen(false);
       }
     };
@@ -85,8 +88,11 @@ const Dropdown = ({ trigger, items, value, onChange }) => {
             active={item.value === value}
             onClick={() => handleSelect(item.value)}
           >
+            {item.icon}
             {item.label}
-            {item.value === value && <ChevronDown size={16} />}
+            {item.value === value && item.value !== "logout" && (
+              <ChevronDown size={16} />
+            )}
           </MenuItem>
         ))}
       </Menu>
@@ -100,7 +106,7 @@ Dropdown.propTypes = {
     PropTypes.shape({
       label: PropTypes.string.isRequired,
       value: PropTypes.string.isRequired,
-    })
+    }),
   ).isRequired,
   value: PropTypes.string,
   onChange: PropTypes.func.isRequired,

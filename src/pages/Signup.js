@@ -13,6 +13,8 @@ import {
   Check,
 } from "lucide-react";
 
+import toast from "react-hot-toast";
+
 import { useAuth } from "../contexts/AuthContext";
 import LoadingSpinner from "../components/common/LoadingSpinner";
 
@@ -84,13 +86,13 @@ const Input = styled.input`
   width: 100%;
   padding: ${({ theme }) => theme.spacing[3]} ${({ theme }) => theme.spacing[4]};
   padding-left: ${({ theme }) => theme.spacing[10]};
-  padding-right: ${({ hasButton, theme }) =>
-    hasButton ? theme.spacing[10] : theme.spacing[4]};
+  padding-right: ${({ $hasButton, theme }) =>
+    $hasButton ? theme.spacing[10] : theme.spacing[4]};
   border: 1px solid
-    ${({ theme, error, success }) =>
-      error
+    ${({ theme, $error, $success }) =>
+      $error
         ? theme.colors.error
-        : success
+        : $success
           ? theme.colors.success
           : theme.colors.border};
   border-radius: ${({ theme }) => theme.borderRadius.md};
@@ -100,17 +102,17 @@ const Input = styled.input`
 
   &:focus {
     outline: none;
-    border-color: ${({ theme, error, success }) =>
-      error
+    border-color: ${({ theme, $error, $success }) =>
+      $error
         ? theme.colors.error
-        : success
+        : $success
           ? theme.colors.success
           : theme.colors.primary};
     box-shadow: 0 0 0 3px
-      ${({ theme, error, success }) =>
-        error
+      ${({ theme, $error, $success }) =>
+        $error
           ? theme.colors.error
-          : success
+          : $success
             ? theme.colors.success
             : theme.colors.primary}20;
   }
@@ -123,10 +125,10 @@ const Input = styled.input`
 const InputIcon = styled.div`
   position: absolute;
   left: ${({ theme }) => theme.spacing[3]};
-  color: ${({ theme, error, success }) =>
-    error
+  color: ${({ theme, $error, $success }) =>
+    $error
       ? theme.colors.error
-      : success
+      : $success
         ? theme.colors.success
         : theme.colors.textTertiary};
   display: flex;
@@ -204,11 +206,11 @@ const PasswordStrengthBar = styled.div`
 
 const PasswordStrengthFill = styled.div`
   height: 100%;
-  width: ${({ strength }) => strength * 25}%;
-  background: ${({ theme, strength }) => {
-    if (strength <= 1) return theme.colors.error;
-    if (strength <= 2) return theme.colors.warning;
-    if (strength <= 3) return theme.colors.info;
+  width: ${({ $strength }) => $strength * 25}%;
+  background: ${({ theme, $strength }) => {
+    if ($strength <= 1) return theme.colors.error;
+    if ($strength <= 2) return theme.colors.warning;
+    if ($strength <= 3) return theme.colors.info;
     return theme.colors.success;
   }};
   transition: all ${({ theme }) => theme.transitions.normal};
@@ -216,10 +218,10 @@ const PasswordStrengthFill = styled.div`
 
 const PasswordStrengthText = styled.div`
   font-size: ${({ theme }) => theme.typography.fontSize.xs};
-  color: ${({ theme, strength }) => {
-    if (strength <= 1) return theme.colors.error;
-    if (strength <= 2) return theme.colors.warning;
-    if (strength <= 3) return theme.colors.info;
+  color: ${({ theme, $strength }) => {
+    if ($strength <= 1) return theme.colors.error;
+    if ($strength <= 2) return theme.colors.warning;
+    if ($strength <= 3) return theme.colors.info;
     return theme.colors.success;
   }};
   font-weight: ${({ theme }) => theme.typography.fontWeight.medium};
@@ -454,10 +456,16 @@ const Signup = () => {
         password: data.password,
       };
 
-      const result = await registerUser(userData);
+      const result = await registerUser(
+        data.username,
+        data.email,
+        data.password,
+      );
 
       if (result.success) {
         navigate("/dashboard", { replace: true });
+      } else {
+        toast.error(result.error || "An unknown error occurred");
       }
     } catch (err) {
       console.error("Registration error:", err);
@@ -487,14 +495,14 @@ const Signup = () => {
           <FormGroup>
             <Label htmlFor="username">Username</Label>
             <InputWrapper>
-              <InputIcon error={errors.username}>
+              <InputIcon $error={errors.username}>
                 <User />
               </InputIcon>
               <Input
                 id="username"
                 type="text"
                 placeholder="Choose a username"
-                error={errors.username}
+                $error={errors.username}
                 {...register("username", {
                   required: "Username is required",
                   minLength: {
@@ -515,14 +523,14 @@ const Signup = () => {
           <FormGroup>
             <Label htmlFor="email">Email Address</Label>
             <InputWrapper>
-              <InputIcon error={errors.email}>
+              <InputIcon $error={errors.email}>
                 <Mail />
               </InputIcon>
               <Input
                 id="email"
                 type="email"
                 placeholder="Enter your email"
-                error={errors.email}
+                $error={errors.email}
                 {...register("email", {
                   required: "Email is required",
                   pattern: {
@@ -543,15 +551,15 @@ const Signup = () => {
           <FormGroup>
             <Label htmlFor="password">Password</Label>
             <InputWrapper>
-              <InputIcon error={errors.password}>
+              <InputIcon $error={errors.password}>
                 <Lock />
               </InputIcon>
               <Input
                 id="password"
                 type={showPassword ? "text" : "password"}
                 placeholder="Create a password"
-                error={errors.password}
-                hasButton
+                $error={errors.password}
+                $hasButton
                 {...register("password", {
                   required: "Password is required",
                   minLength: {
@@ -581,9 +589,9 @@ const Signup = () => {
             {watchPassword && (
               <PasswordStrengthContainer>
                 <PasswordStrengthBar>
-                  <PasswordStrengthFill strength={passwordStrength} />
+                  <PasswordStrengthFill $strength={passwordStrength} />
                 </PasswordStrengthBar>
-                <PasswordStrengthText strength={passwordStrength}>
+                <PasswordStrengthText $strength={passwordStrength}>
                   Password strength: {getPasswordStrengthText(passwordStrength)}
                 </PasswordStrengthText>
                 <PasswordRequirements>
@@ -608,8 +616,8 @@ const Signup = () => {
             <Label htmlFor="confirmPassword">Confirm Password</Label>
             <InputWrapper>
               <InputIcon
-                error={errors.confirmPassword}
-                success={
+                $error={errors.confirmPassword}
+                $success={
                   watchConfirmPassword &&
                   watchConfirmPassword === watchPassword &&
                   watchPassword.length >= 8
@@ -621,13 +629,13 @@ const Signup = () => {
                 id="confirmPassword"
                 type={showConfirmPassword ? "text" : "password"}
                 placeholder="Confirm your password"
-                error={errors.confirmPassword}
-                success={
+                $error={errors.confirmPassword}
+                $success={
                   watchConfirmPassword &&
                   watchConfirmPassword === watchPassword &&
                   watchPassword.length >= 8
                 }
-                hasButton
+                $hasButton
                 {...register("confirmPassword", {
                   required: "Please confirm your password",
                   validate: (value) =>

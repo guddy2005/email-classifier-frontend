@@ -19,6 +19,8 @@ import ForgotPassword from "./pages/ForgotPassword";
 import ResetPassword from "./pages/ResetPassword";
 import PrivateRoute from "./components/auth/PrivateRoute";
 
+import { Toaster } from "react-hot-toast";
+
 const AppContent = () => {
   const { theme } = useSettings();
   const currentTheme = theme === "light" ? lightTheme : darkTheme;
@@ -26,6 +28,7 @@ const AppContent = () => {
   return (
     <ThemeProvider theme={currentTheme}>
       <GlobalStyles />
+      <Toaster position="bottom-right" />
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />

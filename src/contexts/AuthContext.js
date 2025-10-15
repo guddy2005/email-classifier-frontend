@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState, useEffect } from "react";
 import api from "../styles/api";
-import jwtDecode from "jwt-decode";
+import { jwtDecode } from "jwt-decode";
 
 const AuthContext = createContext();
 
@@ -10,6 +10,7 @@ export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   const [token, setToken] = useState(localStorage.getItem("token"));
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
     if (token) {
@@ -37,6 +38,7 @@ export const AuthProvider = ({ children }) => {
       setUser(decoded);
       return { success: true };
     } catch (err) {
+      setError(err.response?.data?.error || "Login failed");
       return {
         success: false,
         error: err.response?.data?.error || "Login failed",
@@ -57,6 +59,7 @@ export const AuthProvider = ({ children }) => {
       setUser(decoded);
       return { success: true };
     } catch (err) {
+      setError(err.response?.data?.error || "Registration failed");
       return {
         success: false,
         error: err.response?.data?.error || "Registration failed",
@@ -75,6 +78,7 @@ export const AuthProvider = ({ children }) => {
       const res = await api.post("/auth/forgot-password", { email });
       return { success: true, message: res.data.message };
     } catch (err) {
+      setError(err.response?.data?.error || "Request failed");
       return {
         success: false,
         error: err.response?.data?.error || "Request failed",
@@ -87,11 +91,16 @@ export const AuthProvider = ({ children }) => {
       await api.post(`/auth/reset-password/${token}`, { password });
       return { success: true };
     } catch (err) {
+      setError(err.response?.data?.error || "Password reset failed");
       return {
         success: false,
         error: err.response?.data?.error || "Password reset failed",
       };
     }
+  };
+
+  const clearErrors = () => {
+    setError(null);
   };
 
   const value = {
@@ -104,6 +113,8 @@ export const AuthProvider = ({ children }) => {
     logout,
     requestPasswordReset,
     resetPassword,
+    error,
+    clearErrors,
   };
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
